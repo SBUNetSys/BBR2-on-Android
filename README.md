@@ -1,3 +1,21 @@
+# BBR2 on Android Project 
+ 
+BBR2 on Android Project published at IMC'22 (Internet Measurement Conference).
+
+## Code 
+Forked Android kernel from https://android.googlesource.com/kernel/gs/+/refs/heads/android-gs-raviole-5.10-android12L.
+
+Ported BBR2 from https://github.com/google/bbr/tree/v2alpha.
+
+## Description
+The current BBR2 version works only for a specific Linux kernel not supported by the Google Pixel 6. This repository ports BBR2 to Pixel 6 Kernel.
+
+## Questions and Usage
+If using or referencing the code, feel free to cite our paper. Feel free to email authors with any questions or feedback.
+
+___
+
+  
 # How do I submit patches to Android Common Kernels
 
 1. BEST: Make all of your changes to upstream Linux. If appropriate, backport to the stable releases.
